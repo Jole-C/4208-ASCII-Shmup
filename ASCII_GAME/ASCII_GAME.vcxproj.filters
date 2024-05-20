@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Renderer\ASCIIRenderer.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Renderer\Sprite.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Maths\Vector2.cpp">
+      <Filter>Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Renderer\AnimatedSprite.cpp">
+      <Filter>Core\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Maths\Vector3.cpp">
+      <Filter>Core\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\ScoreDisplay.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Game\GameObjects\Enemy.cpp">
+      <Filter>Game\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameObjects\Star.cpp" />
+    <ClCompile Include="Game\GameObjects\Bullet.cpp" />
+    <ClCompile Include="Game\GameObjects\Particles\ParticlePixel.cpp" />
+    <ClCompile Include="Game\GameObjects\GameObject.cpp" />
+    <ClCompile Include="Game\GameObjects\PlayerController.cpp" />
+    <ClCompile Include="Game\Menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{4458fac5-906c-4cb5-9399-ed656e517517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{3fe4f25b-4cab-466a-9a7b-85b3e701b26d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Renderer">
+      <UniqueIdentifier>{3d915fb0-1ffd-4f36-a51f-1f7cce5ee000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Maths">
+      <UniqueIdentifier>{82fa3e56-8968-4637-b5d3-20371d11b230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\GameObjects">
+      <UniqueIdentifier>{872a3f34-878d-4c9a-ae1c-a6e597d3af18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\ASCIIRenderer.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Utils.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\ConsoleColours.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\Sprite.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Maths\Vector2.h">
+      <Filter>Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Renderer\AnimatedSprite.h">
+      <Filter>Core\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Maths\Vector3.h">
+      <Filter>Core\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\ScoreDisplay.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Enemy.h">
+      <Filter>Game\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameObjects\Star.h" />
+    <ClInclude Include="Game\GameObjects\Bullet.h" />
+    <ClInclude Include="Game\GameObjects\Particles\ParticlePixel.h" />
+    <ClInclude Include="Game\GameObjects\GameObject.h" />
+    <ClInclude Include="Game\GameObjects\PlayerController.h" />
+    <ClInclude Include="Game\Menu.h" />
+  </ItemGroup>
+</Project>
